@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog | Disha Patel</title>
+  <meta name="description" content="Marketing, creativity, and analytics blog by Disha Patel." />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Blog | Disha Patel" />
+  <meta property="og:description" content="Marketing, creativity, and analytics blog by Disha Patel." />
+  <meta property="og:image" content="assets/images/profile.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Blog | Disha Patel" />
+  <meta name="twitter:description" content="Marketing, creativity, and analytics blog by Disha Patel." />
+  <meta name="twitter:image" content="assets/images/profile.jpg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="assets/favicon-32.png" sizes="32x32" type="image/png" />
+  <link rel="icon" href="assets/favicon-16.png" sizes="16x16" type="image/png" />
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Background wash -->
+  <div class="bg-glow" aria-hidden="true">
+    <span class="blob blob-1"></span>
+    <span class="blob blob-2"></span>
+    <span class="blob blob-3"></span>
+  </div>
+
+  <!-- Header / Nav -->
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="logo">Disha Patel</a>
+
+      <nav class="nav" id="primary-nav">
+        <a href="index.html#about">About</a>
+        <a href="index.html#work">My Work</a>
+        <a href="index.html#leadership">Leadership</a>
+        <a href="index.html#certificates">Certificates</a>
+        <a href="blog.html">Blog</a>
+        <a href="index.html#resume">Resume</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a class="btn btn-small btn-outline" href="https://www.linkedin.com/in/patel-disha/" target="_blank" rel="noopener">LinkedIn</a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Blog intro -->
+  <section class="section blog-hero">
+    <div class="container">
+      <p class="section-label reveal">Blog</p>
+      <h2 class="section-title reveal">Thoughts on marketing, design &amp; data</h2>
+      <p class="section-sub reveal">
+        Where I share campaign breakdowns, Canva design tips, and things I'm learning
+        about brand strategy and analytics.
+      </p>
+    </div>
+  </section>
+
+  <!-- Blog grid -->
+  <section class="section blog-list">
+    <div class="container">
+      <div class="blog-grid">
+
+        <article class="blog-card glass reveal">
+          <img src="assets/images/profile.jpg" alt="Disha Patel" class="blog-thumb" style="object-fit: cover; object-position: 63% 25%;" />
+          <div class="blog-body">
+            <p class="blog-meta"><span class="project-tag">My Story</span> <span class="blog-date">Aug 20, 2026</span></p>
+            <h3>From Accounting to Marketing: Finding My Way Through Data, Creativity, and Curiosity</h3>
+            <p>How a switch from Accounting to Marketing led to Salesforce leadership, a
+              consulting trip to Lisbon, a startup marketing role, and turning around two
+              retail stores through data.</p>
+            <a href="blog-post.html" class="project-link">Read More &rarr;</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>&copy; <span id="year"></span> Disha Patel. Built with care.</p>
+      <a href="#top" class="back-to-top">Back to top &uarr;</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

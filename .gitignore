@@ -1,0 +1,10 @@
+# Raw source material (already processed into assets/) — not needed in the published repo
+/Certificates/
+/My Pictures/
+
+# OS/editor cruft
+.DS_Store
+Thumbs.db
+
+# Local dev server config
+.claude/
